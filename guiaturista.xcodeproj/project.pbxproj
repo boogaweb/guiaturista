@@ -1,0 +1,279 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21D2A7291578999B00ADA47B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D2A7281578999B00ADA47B /* UIKit.framework */; };
+		21D2A72B1578999B00ADA47B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D2A72A1578999B00ADA47B /* Foundation.framework */; };
+		21D2A72D1578999B00ADA47B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21D2A72C1578999B00ADA47B /* CoreGraphics.framework */; };
+		21D2A7331578999B00ADA47B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 21D2A7311578999B00ADA47B /* InfoPlist.strings */; };
+		21D2A7351578999B00ADA47B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D2A7341578999B00ADA47B /* main.m */; };
+		21D2A7391578999B00ADA47B /* guiaturistaAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D2A7381578999B00ADA47B /* guiaturistaAppDelegate.m */; };
+		21D2A73C1578999B00ADA47B /* guiaturistaViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 21D2A73B1578999B00ADA47B /* guiaturistaViewController.m */; };
+		21D2A73F1578999B00ADA47B /* guiaturistaViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 21D2A73D1578999B00ADA47B /* guiaturistaViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		21D2A7241578999B00ADA47B /* guiaturista.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = guiaturista.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		21D2A7281578999B00ADA47B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		21D2A72A1578999B00ADA47B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		21D2A72C1578999B00ADA47B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		21D2A7301578999B00ADA47B /* guiaturista-Info.plist */ = {isa = PBXFileReference; path = "guiaturista-Info.plist"; sourceTree = "<group>"; };
+		21D2A7321578999B00ADA47B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		21D2A7341578999B00ADA47B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		21D2A7361578999B00ADA47B /* guiaturista-Prefix.pch */ = {isa = PBXFileReference; path = "guiaturista-Prefix.pch"; sourceTree = "<group>"; };
+		21D2A7371578999B00ADA47B /* guiaturistaAppDelegate.h */ = {isa = PBXFileReference; path = guiaturistaAppDelegate.h; sourceTree = "<group>"; };
+		21D2A7381578999B00ADA47B /* guiaturistaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guiaturistaAppDelegate.m; sourceTree = "<group>"; };
+		21D2A73A1578999B00ADA47B /* guiaturistaViewController.h */ = {isa = PBXFileReference; path = guiaturistaViewController.h; sourceTree = "<group>"; };
+		21D2A73B1578999B00ADA47B /* guiaturistaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guiaturistaViewController.m; sourceTree = "<group>"; };
+		21D2A73E1578999B00ADA47B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/guiaturistaViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		21D2A7211578999B00ADA47B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D2A7291578999B00ADA47B /* UIKit.framework in Frameworks */,
+				21D2A72B1578999B00ADA47B /* Foundation.framework in Frameworks */,
+				21D2A72D1578999B00ADA47B /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		21D2A7191578999B00ADA47B = {
+			isa = PBXGroup;
+			children = (
+				21D2A72E1578999B00ADA47B /* guiaturista */,
+				21D2A7271578999B00ADA47B /* Frameworks */,
+				21D2A7251578999B00ADA47B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		21D2A7251578999B00ADA47B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				21D2A7241578999B00ADA47B /* guiaturista.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		21D2A7271578999B00ADA47B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				21D2A7281578999B00ADA47B /* UIKit.framework */,
+				21D2A72A1578999B00ADA47B /* Foundation.framework */,
+				21D2A72C1578999B00ADA47B /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		21D2A72E1578999B00ADA47B /* guiaturista */ = {
+			isa = PBXGroup;
+			children = (
+				21D2A7371578999B00ADA47B /* guiaturistaAppDelegate.h */,
+				21D2A7381578999B00ADA47B /* guiaturistaAppDelegate.m */,
+				21D2A73A1578999B00ADA47B /* guiaturistaViewController.h */,
+				21D2A73B1578999B00ADA47B /* guiaturistaViewController.m */,
+				21D2A73D1578999B00ADA47B /* guiaturistaViewController.xib */,
+				21D2A72F1578999B00ADA47B /* Supporting Files */,
+			);
+			path = guiaturista;
+			sourceTree = "<group>";
+		};
+		21D2A72F1578999B00ADA47B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				21D2A7301578999B00ADA47B /* guiaturista-Info.plist */,
+				21D2A7311578999B00ADA47B /* InfoPlist.strings */,
+				21D2A7341578999B00ADA47B /* main.m */,
+				21D2A7361578999B00ADA47B /* guiaturista-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		21D2A7231578999B00ADA47B /* guiaturista */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 21D2A7421578999B00ADA47B /* Build configuration list for PBXNativeTarget "guiaturista" */;
+			buildPhases = (
+				21D2A7201578999B00ADA47B /* Sources */,
+				21D2A7211578999B00ADA47B /* Frameworks */,
+				21D2A7221578999B00ADA47B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = guiaturista;
+			productName = guiaturista;
+			productReference = 21D2A7241578999B00ADA47B /* guiaturista.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		21D2A71B1578999B00ADA47B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0420;
+			};
+			buildConfigurationList = 21D2A71E1578999B00ADA47B /* Build configuration list for PBXProject "guiaturista" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 21D2A7191578999B00ADA47B;
+			productRefGroup = 21D2A7251578999B00ADA47B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				21D2A7231578999B00ADA47B /* guiaturista */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		21D2A7221578999B00ADA47B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D2A7331578999B00ADA47B /* InfoPlist.strings in Resources */,
+				21D2A73F1578999B00ADA47B /* guiaturistaViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		21D2A7201578999B00ADA47B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				21D2A7351578999B00ADA47B /* main.m in Sources */,
+				21D2A7391578999B00ADA47B /* guiaturistaAppDelegate.m in Sources */,
+				21D2A73C1578999B00ADA47B /* guiaturistaViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		21D2A7311578999B00ADA47B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D2A7321578999B00ADA47B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		21D2A73D1578999B00ADA47B /* guiaturistaViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				21D2A73E1578999B00ADA47B /* en */,
+			);
+			name = guiaturistaViewController.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		21D2A7401578999B00ADA47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		21D2A7411578999B00ADA47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		21D2A7431578999B00ADA47B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guiaturista/guiaturista-Prefix.pch";
+				INFOPLIST_FILE = "guiaturista/guiaturista-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		21D2A7441578999B00ADA47B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "guiaturista/guiaturista-Prefix.pch";
+				INFOPLIST_FILE = "guiaturista/guiaturista-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		21D2A71E1578999B00ADA47B /* Build configuration list for PBXProject "guiaturista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D2A7401578999B00ADA47B /* Debug */,
+				21D2A7411578999B00ADA47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		21D2A7421578999B00ADA47B /* Build configuration list for PBXNativeTarget "guiaturista" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				21D2A7431578999B00ADA47B /* Debug */,
+				21D2A7441578999B00ADA47B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 21D2A71B1578999B00ADA47B /* Project object */;
+}
