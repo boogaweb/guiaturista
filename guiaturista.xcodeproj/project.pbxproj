@@ -22,13 +22,13 @@
 		21D2A7281578999B00ADA47B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		21D2A72A1578999B00ADA47B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		21D2A72C1578999B00ADA47B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		21D2A7301578999B00ADA47B /* guiaturista-Info.plist */ = {isa = PBXFileReference; path = "guiaturista-Info.plist"; sourceTree = "<group>"; };
+		21D2A7301578999B00ADA47B /* guiaturista-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "guiaturista-Info.plist"; sourceTree = "<group>"; };
 		21D2A7321578999B00ADA47B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		21D2A7341578999B00ADA47B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		21D2A7361578999B00ADA47B /* guiaturista-Prefix.pch */ = {isa = PBXFileReference; path = "guiaturista-Prefix.pch"; sourceTree = "<group>"; };
-		21D2A7371578999B00ADA47B /* guiaturistaAppDelegate.h */ = {isa = PBXFileReference; path = guiaturistaAppDelegate.h; sourceTree = "<group>"; };
+		21D2A7361578999B00ADA47B /* guiaturista-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "guiaturista-Prefix.pch"; sourceTree = "<group>"; };
+		21D2A7371578999B00ADA47B /* guiaturistaAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = guiaturistaAppDelegate.h; sourceTree = "<group>"; };
 		21D2A7381578999B00ADA47B /* guiaturistaAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guiaturistaAppDelegate.m; sourceTree = "<group>"; };
-		21D2A73A1578999B00ADA47B /* guiaturistaViewController.h */ = {isa = PBXFileReference; path = guiaturistaViewController.h; sourceTree = "<group>"; };
+		21D2A73A1578999B00ADA47B /* guiaturistaViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = guiaturistaViewController.h; sourceTree = "<group>"; };
 		21D2A73B1578999B00ADA47B /* guiaturistaViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = guiaturistaViewController.m; sourceTree = "<group>"; };
 		21D2A73E1578999B00ADA47B /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/guiaturistaViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -124,7 +124,7 @@
 		21D2A71B1578999B00ADA47B /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0420;
+				LastUpgradeCheck = 0430;
 			};
 			buildConfigurationList = 21D2A71E1578999B00ADA47B /* Build configuration list for PBXProject "guiaturista" */;
 			compatibilityVersion = "Xcode 3.2";
@@ -272,6 +272,7 @@
 				21D2A7441578999B00ADA47B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
